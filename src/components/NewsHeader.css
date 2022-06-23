@@ -1,0 +1,30 @@
+.news-header-container{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+
+.news-header-image{
+    width: 1300px;
+    height: 700px;
+}
+
+.news-header-title{
+    background-color: rgba(40, 50, 52, 0.24);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.news-header-text{
+    position: absolute;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(40, 50, 52, 0.24);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

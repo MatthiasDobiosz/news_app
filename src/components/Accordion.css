@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap');
+
+.accordion__container{
+    display:flex;
+    flex-direction: column;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.accordion__title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.accordion__icon{
+    margin-left: auto;
+    transition: transform 0.6s ease;
+    padding-left: 20px;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.active{
+    background-color: beige;
+}
+
+.accordion__content{
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+
+.accordion__list{
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.sidebar-item{
+    color: blue;
+    margin: 20px;
+    font-family: 'Anek Malayalam', sans-serif;
+    cursor: pointer;
+}
+
+.sidebar-item {
+    size: 5px;
+}
+
+.far{
+    color: black;
+    position: relative;
+    left: 50px;
+}
+
+.fas{
+    color: black;
+    position: relative;
+    left:38px;
+    opacity: 0;
+}
+
+.active-item .fas{ 
+    opacity: 1;
+}
+

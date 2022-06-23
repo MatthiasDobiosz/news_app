@@ -1,0 +1,18 @@
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-content: center;
+    column-gap: 100px;
+    padding-bottom: 50px;
+}
+
+.card--medium{
+    grid-column: span 1;
+    background-color: lightgrey;
+}
+
+.card--large{
+    grid-column: span 2;
+    background-color: lightgrey;
+}
+
