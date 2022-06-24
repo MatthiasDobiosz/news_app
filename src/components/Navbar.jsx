@@ -23,7 +23,7 @@ const Navbar = () => {
                 <ul className="category-list">
                     <li>
                         <Link 
-                        to='/top-news' 
+                        to='/' 
                         className={isSelected('top-news')?"nav-category-selected":"nav-category"} 
                         onClick={() => setSelectedCategory("top-news")}
                         >
